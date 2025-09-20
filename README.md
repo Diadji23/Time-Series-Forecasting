@@ -6,12 +6,7 @@ The goal is to build, evaluate, and compare different approaches for predicting 
 
 **Dataset:** Daily Minimum Temperatures in Melbourne, Australia (1981–1990)  
 **Objective:** Predict the next day’s temperature from previous days.  
-
-**Dataset:** Daily Minimum Temperatures in Melbourne, Australia (1981–1990)  
-**Objective:** Predict the next day’s temperature based on previous days.  
-
 ---
-
 
 ## Methodology
 
