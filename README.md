@@ -1,17 +1,17 @@
 # Time-Series Forecasting
 
 ## Project Overview
-This project demonstrates forecasting of time series data using both **classical baselines** and **deep learning models**. It is designed to showcase skills in **data preprocessing, sequence modeling, evaluation, and visualization**, which are highly valued in Data Science and Machine Learning internships.
+This project explores forecasting of time series data using both **classical statistical baselines** and **deep learning models**.  
+The goal is to build, evaluate, and compare different approaches for predicting future values based on historical observations.
+
+**Dataset:** Daily Minimum Temperatures in Melbourne, Australia (1981–1990)  
+**Objective:** Predict the next day’s temperature from previous days.  
 
 **Dataset:** Daily Minimum Temperatures in Melbourne, Australia (1981–1990)  
 **Objective:** Predict the next day’s temperature based on previous days.  
 
 ---
 
-## Repository Structure
-
-
----
 
 ## Methodology
 
@@ -27,11 +27,23 @@ This project demonstrates forecasting of time series data using both **classical
 
 3. **Deep Learning Models**
    - **LSTM (Long Short-Term Memory)**: Captures temporal dependencies over longer sequences.
-   - **GRU (Gated Recurrent Unit)**: Faster and simpler alternative to LSTM.
 
 4. **Evaluation**
    - Metrics: **MAE (Mean Absolute Error)**, **RMSE (Root Mean Squared Error)**
    - Visualization: Predicted vs Actual values over time.
+
+---
+
+## Results
+
+| Model              | MAE   | RMSE  |
+|--------------------|-------|-------|
+| Naive              | 1.95  | 2.48  |
+| Moving Avg (7d)    | 2.03  | 2.58  |
+| Moving Avg (30d)   | 2.05  | 2.68  |
+| **LSTM**           | **1.76** | **2.25** |
+
+✅ The LSTM model outperforms classical baselines, reducing error by ~10%.  
 
 ---
 
